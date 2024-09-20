@@ -28,4 +28,8 @@ func main() {
 	fmt.Println("Before without Change Address : ", address)
 	address = "Banglore" // after the address we have update a address bcz we have not used a const in this placed
 	fmt.Println("After Change Address : ", address)
+
+	fmt.Println("---------Other Way to declare Variable---------")
+	godName := "Mahadev" //Other way to define
+	fmt.Println(godName)
 }
