@@ -40,4 +40,18 @@ func main() {
 		fmt.Println("Unknown Month")
 	}
 
+	temperature := 30
+	switch {
+	case temperature < 0:
+		fmt.Println("Freezing")
+	case temperature > 5 && temperature < 15:
+		fmt.Println("Winter")
+	case temperature > 20 && temperature < 30:
+		fmt.Println("Warm")
+	case temperature > 30 && temperature < 45:
+		fmt.Println("Hot")
+	default:
+		fmt.Println("NONE")
+	}
+
 }
